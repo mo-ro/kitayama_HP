@@ -12,8 +12,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@svgr/webpack": "^4.2.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "svg-inline-react": "^3.1.0"
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./components"
+        ],
+        "alias": {
+          "@": "./components"
+        }
+      }
+    ]
+  ],
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "module-resolver": "^1.0.0"
   }
 }
