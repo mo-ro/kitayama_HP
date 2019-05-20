@@ -1,7 +1,8 @@
+import style from "./style.scss";
+
 const Layout = (props) => (
-  <div>
+  <div className={style.layout}>
     {props.children}
-    aaa
   </div>
 )
 

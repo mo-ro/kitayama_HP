@@ -3,9 +3,14 @@
 }
 
 .medium {
-  width: 32px;
+  width: 28px;
 }
 
 .large {
   width: 64px;
+}
+
+.icon {
+  display: block;
+  filter: drop-shadow(0 2px 4px rgba($black, .3));
 }

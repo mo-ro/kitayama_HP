@@ -1,0 +1,29 @@
+.link {
+  color: $white;
+  filter: drop-shadow(0 0 2px rgba($black, 0.4));
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: fit-content;
+  text-decoration: none;
+  padding: 10px 8px;
+  position: relative;
+
+  &::after {
+    background-color: $white;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: .4s cubic-bezier(.55,0,.1,1);
+    width: 20px;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}

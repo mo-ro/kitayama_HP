@@ -1,0 +1,44 @@
+.heading {
+  color: $white;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  width: fit-content;
+}
+
+.small {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.medium {
+  font-size: 3rem;
+}
+
+.large {
+  font-size: 5rem;
+}
+
+.xLarge {
+  font-size: 8rem;
+}
+
+.underline {
+  padding-bottom: 20px;
+  margin-left: -20px;
+  filter: drop-shadow(0 2px 4px rgba($black, .3));
+  &::after {
+    content: "";
+    display: block;
+    background-color: $white;
+    bottom: -4px;
+    left: 20px;
+    height: 6px;
+    position: absolute;
+    width: 360px;
+  }
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
