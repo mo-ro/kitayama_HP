@@ -1,6 +1,10 @@
 // @import url('https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP&display=swap');
 html {
   font-size: 62.5%;
+
+  @include mq-small {
+    font-size: 50%;
+  }
 }
 
 body {

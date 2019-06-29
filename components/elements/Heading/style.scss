@@ -36,6 +36,11 @@
     height: 6px;
     position: absolute;
     width: 360px;
+
+    @include mq-small {
+      height: 4px;
+      width: 200px;
+    }
   }
 }
 

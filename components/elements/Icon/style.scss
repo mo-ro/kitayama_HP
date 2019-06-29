@@ -1,16 +1,25 @@
 .small {
+  height: 16px;
   width: 16px;
 }
 
 .medium {
+  height: 28px;
   width: 28px;
 }
 
 .large {
+  height: 64px;
   width: 64px;
 }
 
 .icon {
+  object-fit: contain;
   display: block;
   filter: drop-shadow(0 2px 4px rgba($black, .3));
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
 }

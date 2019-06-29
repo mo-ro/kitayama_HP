@@ -1,9 +1,9 @@
 import GlobalLayout from "../components/Layouts/GlobalLayout";
 import Icon from '../components/elements/Icon';
 import Heading from '../components/elements/Heading';
+import Header from '../components/elements/Header';
 import LinkText from '../components/elements/LinkText';
 
-import Logo from '../images/logo.svg';
 import personImage from '../images/person.png';
 import Circle from '../images/circle.svg';
 import Triangle from '../images/triangle.svg';
@@ -14,15 +14,6 @@ import style from './style/index.scss';
 const Index = () => (
   <GlobalLayout>
     <div className={style.container}>
-      <div className={style.topArea}>
-        <Logo className={style.logo} />
-        <nav className={style.navArea}>
-          <LinkText href="/">TOP</LinkText>
-          <LinkText href="/">ABOUT</LinkText>
-          <LinkText href="/">NEWS</LinkText>
-          <LinkText href="/">CONTACT</LinkText>
-        </nav>
-      </div>
       <div className={style.content}>
         <div className={style.left}>
           <div className={style.headingArea}>
