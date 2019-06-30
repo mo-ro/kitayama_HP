@@ -27,7 +27,7 @@ class Header extends React.Component {
         <nav className={style.navArea}>
           <LinkText href="/">TOP</LinkText>
           <LinkText href="/about">ABOUT</LinkText>
-          <LinkText href="/news">NEWS</LinkText>
+          {/* <LinkText href="/news">NEWS</LinkText> */}
           <LinkText href="/contact">CONTACT</LinkText>
         </nav>
         <nav className={style.hamburger} onClick={this.toggleSidebar}>
@@ -36,7 +36,7 @@ class Header extends React.Component {
           <div className={style.sidebar} data-open={this.state.isOpen}>
             <a className={style.sideLink} href="/">TOP</a>
             <a className={style.sideLink} href="/about">ABOUT</a>
-            <a className={style.sideLink} href="/news">NEWS</a>
+            {/* <a className={style.sideLink} href="/news">NEWS</a> */}
             <a className={style.sideLink} href="/contact">CONTACT</a>
           </div>
         </nav>

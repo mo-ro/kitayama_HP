@@ -1,6 +1,5 @@
 import GlobalLayout from "../components/Layouts/GlobalLayout";
 import Heading from '../components/elements/Heading';
-import NewsItem from "../components/NewsItem";
 import style from './style/contact.scss';
 import Icon from '../components/elements/Icon';
 
@@ -13,19 +12,19 @@ const Contact = () => (
         <Heading>SNS</Heading>
         <div className={style.icons}>
           <div className={style.iconWrapper}>
-            <Icon icon="twitter" href="/" />
+            <Icon icon="twitter" target="_blank" href="http://twitter.com/kitayama_hayate/" />
             <p className={style.iconText}>Twitter</p>
           </div>
           <div className={style.iconWrapper}>
-            <Icon icon="instagram" href="/" />
+            <Icon icon="instagram" target="_blank" href="https://instagram.com/kitayama_hayate_jp/" />
             <p className={style.iconText}>Instagram</p>
           </div>
           <div className={style.iconWrapper}>
-            <Icon icon="apple" href="/" />
+            <Icon icon="apple" target="_blank" href="https://music.apple.com/jp/artist/%E5%8C%97%E5%B1%B1%E9%A2%AF/1309417579" />
             <p className={style.iconText}>Apple</p>
           </div>
           <div className={style.iconWrapper}>
-            <Icon icon="spotify" href="/" />
+            <Icon icon="spotify" target="_blank" href="https://open.spotify.com/artist/740kgEcS0A1nf1RtphcYXt?si=MGQzxb9rRx6479UZtKSUGg" />
             <p className={style.iconText}>Spotify</p>
           </div>
         </div>

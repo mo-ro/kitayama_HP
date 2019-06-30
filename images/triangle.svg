@@ -2,12 +2,14 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="138.5px"
 	 height="125.8px" viewBox="0 0 138.5 125.8" style="enable-background:new 0 0 138.5 125.8;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+	.st0{fill:#fff;}
+	.st1{fill:#8C1820;}
+	.st2{fill:#BB202B;}
 </style>
 <defs>
 </defs>
 <polygon class="st0" points="138.5,0 115.8,0 138.5,22.7 "/>
-<polygon class="st0" points="56.8,0 138.5,81.7 138.5,49.9 88.7,0 "/>
+<polygon class="st1" points="56.8,0 138.5,81.7 138.5,49.9 88.7,0 "/>
 <polygon class="st0" points="0,125.8 32.8,121.2 4.6,93 "/>
 <path class="st0" d="M16.9,55.4c0-2.7,0.4-5.4,1.1-7.9l-6.2-6.2l-3.9,28l48.8,48.8l28-3.9L54.2,83.6c-2.5,0.7-5.2,1.1-7.9,1.1
 	C30.1,84.7,16.9,71.5,16.9,55.4z"/>

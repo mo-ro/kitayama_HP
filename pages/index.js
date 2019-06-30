@@ -25,17 +25,17 @@ const Index = () => (
             word gangurru, referring to grey kangaroos.
           </p>
           <div className={style.icons}>
-            <Icon color="#222" icon="twitter" href="/about" />
-            <Icon color="#222" icon="instagram" href="/about" />
-            <Icon color="#222" icon="apple" href="/about" />
-            <Icon color="#222" icon="spotify" href="/about" />
+            <Icon color="#fff" icon="twitter" target="_blank" href="http://twitter.com/kitayama_hayate/" />
+            <Icon color="#fff" icon="instagram" target="_blank" href="https://instagram.com/kitayama_hayate_jp/" />
+            <Icon color="#fff" icon="apple" target="_blank" href="https://music.apple.com/jp/artist/%E5%8C%97%E5%B1%B1%E9%A2%AF/1309417579" />
+            <Icon color="#fff" icon="spotify" target="_blank" href="https://open.spotify.com/artist/740kgEcS0A1nf1RtphcYXt?si=MGQzxb9rRx6479UZtKSUGg" />
           </div>
         </div>
         <img src={personImage} className={style.person} />
       </div>
-      <Circle className={style.circle} />
+      {/* <Circle className={style.circle} />
       <Triangle className={style.triangle} />
-      <Sideline className={style.sideline} />
+      <Sideline className={style.sideline} /> */}
     </div>
   </GlobalLayout>
 )

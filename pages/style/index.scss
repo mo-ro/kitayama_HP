@@ -9,7 +9,7 @@
   margin-bottom: 40px;
 
   @include mq-small {
-    margin-bottom: 320px;
+    margin-bottom: 42vh;
   }
 }
 
@@ -26,12 +26,12 @@
 
 .left {
   left: 100px;
-  padding-top: 60px;
+  padding-top: 40px;
   position: absolute;
 
   @include mq-small {
     left: 30px;
-    margin-top: -40px;
+    top: 60px;
   }
 }
 
@@ -44,7 +44,7 @@
 }
 
 .text {
-  color: $black;
+  color: $white;
   font-size: 1.4rem;
   font-weight: 200;
   margin-bottom: 40px;
@@ -92,6 +92,7 @@
 .triangle,
 .sideline
 {
+  display: none;
   @include mq-small {
     transform: scale(0.8);
   }
@@ -102,6 +103,8 @@
 }
 
 .circle {
+  @include mq-small {
+    display: none;
+  }
   transform-origin: right bottom;
-  display: none;
 }

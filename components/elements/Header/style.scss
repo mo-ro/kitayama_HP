@@ -55,7 +55,7 @@
   width: 100%;
   height: 4px;
   top: 0;
-  background-color: $black;
+  background-color: $white;
   transition: left .2s ease-in-out;
   left: 0;
 
@@ -70,7 +70,7 @@
     width: 100%;
     height: 4px;
     position: absolute;
-    background-color: $black;
+    background-color: $white;
   }
 
   &::before {
@@ -84,7 +84,7 @@
 
 .menuText {
   font-size: 1.2rem;
-  color: $black;
+  color: $white;
   position: absolute;
   bottom: -6px;
   text-align: center;

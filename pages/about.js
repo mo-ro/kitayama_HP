@@ -8,15 +8,21 @@ import style from './style/about.scss';
 const Index = () => (
   <GlobalLayout>
     <div className={style.container}>
+      <Heading level="2" size="medium">About</Heading>
       <figure className={style.imageWrapper}>
         <img src={profImage} alt="" className={style.image} />
       </figure>
       <div className={style.profArea}>
-        <p className={style.profHead}>Name</p><Heading level="1" size="medium">北山 颯</Heading>
-        <p className={style.profHead}>Birthplace</p><Heading level="1" size="small">火星</Heading>
-        <p className={style.profHead}>Hobbies</p><Heading level="1" size="small">落語 / 盆栽 / アイスホッケー</Heading>
+        <p className={style.profHead}>Name</p><Heading level="1" size="small-medium">北山 颯</Heading>
+        <p className={style.profHead}>Birth</p><Heading level="2" size="small">埼玉県出身 1997年6月23日生</Heading>
         <p className={style.profHead}>Comment</p>
-        <p className={style.comment}>地球は太陽から3番目に位置する惑星です。直径は約1万3,000km、赤道のまわりは約4万kmあります。地球はよく「水の惑星」と呼ばれ、太陽系の中でも地球にだけ表面に大量の水が存在します。太陽からの距離がほどよいため、水を液体に保っていられるのです。その水のほとんどは海にあり、地球の表面の7割を占め、このおかげで生物が住みやすい環境ができているのです。今までの探査で分かっているかぎりでは、太陽系8つの惑星と160以上の衛星のなかでも、生物の存在が確認されているのは地球だけです。</p>
+        <p className={style.comment}>幼少期から父親の影響で音楽を聴いて育ち、
+        16歳で作詞作曲活動を始める。<br/>
+        その後コンスタントにYouTube、SoundCloud等に曲をアップロードし、
+        2018年から本格的に活動が始動。<br/>
+        活動開始直後にも関わらず行った地元埼玉県での弾き語りライブは満員の観客と共に大成功。<br/>
+        R&B、ROCK、POPS、あらゆるジャンルの音楽をマッシュアップさせ、独自のワードセンスで織りなす楽曲が特徴。<br/>
+        自身の楽曲ではすべての楽器を演奏し、編曲も行なっているマルチプレイヤーである。</p>
       </div>
       <Sideline className={style.sideline} />
       <Sideline className={style.sideline} />
