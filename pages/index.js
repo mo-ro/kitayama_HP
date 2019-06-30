@@ -17,7 +17,7 @@ const Index = () => (
       <div className={style.content}>
         <div className={style.left}>
           <div className={style.headingArea}>
-            <Heading level="1" size="xLarge" styled vertical>北山 颯</Heading>
+            <Heading level="1" size="medium" styled>北山 颯</Heading>
             <Heading level="2" size="small">KITAYAMA HAYATE</Heading>
           </div>
           <p className={style.text}>Born and raised in Saitama.<br/>
@@ -25,10 +25,10 @@ const Index = () => (
             word gangurru, referring to grey kangaroos.
           </p>
           <div className={style.icons}>
-            <Icon icon="twitter" href="/about" />
-            <Icon icon="instagram" href="/about" />
-            <Icon icon="apple" href="/about" />
-            <Icon icon="spotify" href="/about" />
+            <Icon color="#222" icon="twitter" href="/about" />
+            <Icon color="#222" icon="instagram" href="/about" />
+            <Icon color="#222" icon="apple" href="/about" />
+            <Icon color="#222" icon="spotify" href="/about" />
           </div>
         </div>
         <img src={personImage} className={style.person} />

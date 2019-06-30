@@ -1,5 +1,5 @@
 .heading {
-  color: $white;
+  color: $black;
   display: inline-block;
   font-weight: bold;
   position: relative;
@@ -7,12 +7,12 @@
 }
 
 .small {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 200;
 }
 
 .medium {
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 .large {
@@ -24,21 +24,18 @@
 }
 
 .underline {
-  padding-bottom: 20px;
-  margin-left: -20px;
-  filter: drop-shadow(0 2px 4px rgba($black, .3));
+  line-height: 1;
   &::after {
     content: "";
     display: block;
-    background-color: $white;
+    background-color: $black;
     bottom: -4px;
-    left: 20px;
-    height: 6px;
+    height: 4px;
     position: absolute;
     width: 360px;
 
     @include mq-small {
-      height: 4px;
+      height: 2px;
       width: 200px;
     }
   }
