@@ -20,9 +20,8 @@ const Index = () => (
             <Heading level="1" size="medium" styled>北山 颯</Heading>
             <Heading level="2" size="small">KITAYAMA HAYATE</Heading>
           </div>
-          <p className={style.text}>Born and raised in Saitama.<br/>
-            The word "kangaroo" derives from the Guugu Yimithirr<br/>
-            word gangurru, referring to grey kangaroos.
+          <p className={style.text}>
+            musician / composer
           </p>
           <div className={style.icons}>
             <Icon color="#fff" icon="twitter" target="_blank" href="http://twitter.com/kitayama_hayate/" />

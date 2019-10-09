@@ -31,9 +31,9 @@ const Contact = () => (
       </section>
 
       <section className={style.section}>
-        <Heading>E-mail</Heading>
+        <Heading>e-mail</Heading>
         <div className={style.email}>
-          emaildayo@gmail.com
+          kitayamahayate@yahoo.co.jp
         </div>
       </section>
 

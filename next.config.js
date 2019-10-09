@@ -33,7 +33,7 @@ module.exports = withCSS({
       });
 
     config.resolve.alias = {
-      '@': './components'
+      ...(config.resolve.alias || {}),
     }
 
     return config;
