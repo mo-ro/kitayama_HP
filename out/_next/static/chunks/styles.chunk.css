@@ -1,0 +1,592 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+.x6vjeq7IDjKc_Nb9ZEFcP {
+  background-color: #BB202B;
+  font-size: 1rem;
+  overflow: hidden;
+  min-height: 100vh; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+.bgUkeldudf9eJsl-5zZ_4 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  width: 100%; }
+  @media (max-width: 799px) {
+    .bgUkeldudf9eJsl-5zZ_4 {
+      display: none; } }
+
+._1PHhfkq8b72PeJAba75Ezl {
+  margin-right: 100px;
+  width: 80px; }
+  @media (max-width: 799px) {
+    ._1PHhfkq8b72PeJAba75Ezl {
+      height: 60px;
+      margin-right: 0;
+      width: 40px;
+      margin-top: 4px; } }
+
+._3SLfBixmIiWAGV7eGOMn55 {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0 100px;
+  position: fixed;
+  z-index: 100;
+  width: 100%; }
+  @media (max-width: 799px) {
+    ._3SLfBixmIiWAGV7eGOMn55 {
+      padding: 0 20px; } }
+
+._3nQ4ELDu8NwnLGcHlTKsRm {
+  position: absolute;
+  display: none;
+  height: 40px;
+  width: 40px;
+  right: 20px;
+  top: 20px; }
+  @media (max-width: 799px) {
+    ._3nQ4ELDu8NwnLGcHlTKsRm {
+      display: block; } }
+
+._2kV1GcZTSI7bNDHAVZK1zR {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 0;
+  background-color: #ffffff;
+  transition: left .2s ease-in-out;
+  left: 0; }
+  ._2kV1GcZTSI7bNDHAVZK1zR[data-open=true] {
+    left: -160px; }
+  ._2kV1GcZTSI7bNDHAVZK1zR::before, ._2kV1GcZTSI7bNDHAVZK1zR::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    background-color: #ffffff; }
+  ._2kV1GcZTSI7bNDHAVZK1zR::before {
+    top: 24px; }
+  ._2kV1GcZTSI7bNDHAVZK1zR::after {
+    top: 12px; }
+
+.Th7Rw6Q0UhrCTvjvJTLQ6 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: -6px;
+  text-align: center;
+  width: 100%;
+  transition: left .2s ease-in-out;
+  left: 0; }
+  .Th7Rw6Q0UhrCTvjvJTLQ6[data-open=true] {
+    left: -160px; }
+
+._3yZoGIzc5WdnAg3Zr3Q3B8 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #ffffff;
+  position: absolute;
+  left: calc(100% + 20px);
+  top: -20px;
+  padding-top: 40px;
+  padding-left: 10px;
+  transition: left .2s ease-in-out; }
+  ._3yZoGIzc5WdnAg3Zr3Q3B8[data-open=true] {
+    left: calc(100% - 140px); }
+
+._2B_549g6vQuCmcmCGNazRe {
+  font-size: 2rem;
+  color: #292929;
+  padding: 10px 0;
+  margin-bottom: 10px; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+.yP57BQkC893U-nS1Cl3OJ {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: fit-content;
+  text-decoration: none;
+  padding: 10px 8px;
+  position: relative; }
+  .yP57BQkC893U-nS1Cl3OJ::after {
+    background-color: #ffffff;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: 0.4s cubic-bezier(0.55, 0, 0.1, 1);
+    width: 20px; }
+  .yP57BQkC893U-nS1Cl3OJ:hover::after {
+    width: 100%; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+.gVxvLHMm00A40iFAH0bwN {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 0 20px; }
+  .gVxvLHMm00A40iFAH0bwN:not(:last-child) {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 40px;
+    margin-bottom: 40px; }
+
+._3xejZkva2ChzDBnqkSxGYb {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  width: fit-content; }
+  ._3xejZkva2ChzDBnqkSxGYb::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+._3ODe4zNnJkT0C4ZV1X9iph {
+  margin-top: 20px;
+  width: 100%; }
+
+.KShU-N_aeu5cWucn7TnLr {
+  display: block;
+  max-height: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%; }
+
+._2iGXjs2M9FovrPJRAX6QM_ {
+  font-size: 1.6rem;
+  margin-bottom: 10px; }
+
+._2kXDmmYrcDXVR_kZaz_C3S {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: underline; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+._2-1csa4PSxjKnxyn1LmOjI {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  width: fit-content; }
+
+._2GTGVBXegIJwZW6diRgGt_ {
+  font-size: 1.6rem;
+  font-weight: 200; }
+
+._3EpP97WCseAeDrJbXiQRbU {
+  font-size: 2.4rem; }
+
+.I54JyHL9r3hY4aXUSQ8X4 {
+  font-size: 5.4rem;
+  padding-bottom: 8px; }
+  @media (max-width: 799px) {
+    .I54JyHL9r3hY4aXUSQ8X4 {
+      font-size: 3.6rem; } }
+
+._3HZi06324RQwQnYw47yeAX {
+  font-size: 5rem; }
+
+._2qLK5pkwCT2lwgXO9ipOtS {
+  font-size: 8rem; }
+
+._1A-ZDfMECB2wKGvAyN0w9b {
+  line-height: 1; }
+  ._1A-ZDfMECB2wKGvAyN0w9b::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    bottom: -4px;
+    height: 4px;
+    position: absolute;
+    width: 360px; }
+    @media (max-width: 799px) {
+      ._1A-ZDfMECB2wKGvAyN0w9b::after {
+        height: 2px;
+        width: 200px; } }
+
+.dpXQ0SB1PWJuhvJzYAlw6 {
+  writing-mode: vertical-rl; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 799px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Noto Sans JP', 'Montserrat', sans-serif; }
+
+body {
+  position: relative;
+  line-height: 1.8; }
+
+._3ezx_UjT4q8qZ--c2m9WFs {
+  padding: 140px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+._2bGrWLZK-KgilCI5FsDHmC {
+  color: #99c2ff; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

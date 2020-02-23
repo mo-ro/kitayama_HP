@@ -10,12 +10,48 @@ import homeImage from '../images/home.jpg';
 import mashHuntImage from '../images/mash_hunt.jpg';
 import membersImage from '../images/members.jpg';
 import oishiImage from '../images/oishi.jpg';
+import twoImage from "../images/2.jpg";
 
 
 const News = () => (
   <GlobalLayout>
     <div className={style.container}>
-    <NewsItem date="10/9" images={[membersImage, mashHuntImage]}>
+      <NewsItem date="2/23" images={[twoImage]}>
+        <Heading level="2" size="small-medium">アルバム「2」発売</Heading><br/><br/>
+        来たる2/28日に全9曲入りのアルバムリリースが決定いたしました。
+        ＊今回は配信限定のデジタルリリースとなります。
+        シンガーソングライターというパブリックイメージを根本から変えてやろうと思い、作った現代的なサウンドをかなり意識した意欲作になっております。
+        北山颯の今の形を皆さま是非お聴きください。<br/><br/>
+
+        なお、本日からアルバム8曲目の「i.s.m」のミュージックビデオ、そしてアルバム全曲が視聴できるアルバムティザーが公式YouTubeにてアップしておりますのでこちらも合わせてチェックしてみてください！<br/><br/>
+        チャンネルはこちらから↓<br/>
+        <a className={style.link} href="https://youtube.com/channel/UCVcLs20yNUyXhBEY08qLPTA">https://youtube.com/channel/UCVcLs20yNUyXhBEY08qLPTA</a><br/><br/>
+
+        北山颯 2nd album 「２」(読み：に または、two)<br/>
+
+        収録内容：<br/>
+        1.庶民<br/>
+        2.black out<br/>
+        3.恍惚<br/>
+        4.あのgood girl<br/>
+        5.Night Again<br/>
+        6.mmmmm<br/>
+        7.アヒルの子<br/>
+        8.i.s.m<br/>
+        9.物語は<br/><br/>
+
+        発売日：2/28 リリース(デジタルのみ)<br/>
+        価格：¥2,037(iTunes)<br/>
+        ご予約はこちらから<br/>
+        iTunes<br/>
+        <a className={style.link} href="https://music.apple.com/jp/album/2/1498038755">https://music.apple.com/jp/album/2/1498038755</a><br/><br/>
+
+        Apple Music<br/>
+        <a className={style.link} href="https://music.apple.com/jp/artist/%E5%8C%97%E5%B1%B1%E9%A2%AF/1309417579">https://music.apple.com/jp/artist/%E5%8C%97%E5%B1%B1%E9%A2%AF/1309417579</a><br/><br/>
+        Spotify<br/>
+        <a className={style.link} href="https://open.spotify.com/artist/0xhOkswYJxZDmKhsgbPN8F">https://open.spotify.com/artist/0xhOkswYJxZDmKhsgbPN8F</a><br/><br/>
+      </NewsItem>
+      <NewsItem date="10/9" images={[membersImage, mashHuntImage]}>
         <Heading level="2" size="small-medium">2019年8月度のMASH PUSHに選出されました。</Heading><br/><br/>
         MASH A&Rさん(THE ORAL CIGARETTES,フレデリック等所属)がオーガナイズするオーディション企画「MASHHUNT」の8月度MASH PUSHに選出していただきました。<br/><br/>
 

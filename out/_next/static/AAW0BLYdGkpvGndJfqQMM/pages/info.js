@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["c6e1"],{SMcs:function(n,a,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/info",function(){var n=e("jLj4");return{page:n.default||n}}])},jLj4:function(n,a,e){"use strict";e.r(a);var t=e("q1tI"),u=e.n(t),c=e("/nBz");a.default=function(){return u.a.createElement(c.a,null,"aaaaa")}}},[["SMcs","5d41","9da1","ad9d"]]]);
